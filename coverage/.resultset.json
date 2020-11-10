@@ -1,0 +1,66 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/paulo/Desktop/CA_sept/w7_testing_in_ruby_on_rails/rails_project/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/paulo/Desktop/CA_sept/w7_testing_in_ruby_on_rails/rails_project/app/models/article.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/paulo/Desktop/CA_sept/w7_testing_in_ruby_on_rails/rails_project/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/paulo/Desktop/CA_sept/w7_testing_in_ruby_on_rails/rails_project/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
+      "/home/paulo/Desktop/CA_sept/w7_testing_in_ruby_on_rails/rails_project/app/controllers/articles_controller.rb": [
+        1,
+        null,
+        1,
+        4,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/paulo/Desktop/CA_sept/w7_testing_in_ruby_on_rails/rails_project/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/paulo/Desktop/CA_sept/w7_testing_in_ruby_on_rails/rails_project/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/paulo/Desktop/CA_sept/w7_testing_in_ruby_on_rails/rails_project/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/paulo/Desktop/CA_sept/w7_testing_in_ruby_on_rails/rails_project/app/jobs/application_job.rb": [
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ]
+    },
+    "timestamp": 1605041893
+  }
+}
