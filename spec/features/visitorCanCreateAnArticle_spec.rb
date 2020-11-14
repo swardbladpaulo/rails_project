@@ -1,15 +1,15 @@
 feature 'Visitor can write an article' do
   before do
     visit root_path
-    click_on 'Write an Article'
+    click_on 'Write'
   end
 
   context 'by providing all necessary information' do
-    before do
-      fill_in 'Title', with: 'Another greate demo from Thomas'
-      fill_in 'Content', with: 'Learning this stuff is alright'
-      click_on 'Create Article'
-    end
+  before do
+    fill_in 'Title', with: 'Another greate demo from Thomas'
+    fill_in 'Content', with: 'Learning this stuff is alright'
+    click_on 'Create Article'
+  end
 
     it 'is expected to save a new article in the database' do
       expect(Article.count).to eq 1      
