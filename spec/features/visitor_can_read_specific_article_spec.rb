@@ -1,5 +1,8 @@
 feature 'Visistor can read specific article' do
+  let(:user) { FactoryBot.create(:user) }
+
   before do
+    login_as(user, scope: :user)
     create(:article, title: 'A breaking news item', content: 'You can not believe what happened')
 
     visit root_path

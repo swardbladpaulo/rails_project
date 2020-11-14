@@ -12,5 +12,6 @@
   <body>
     <%= yield %>
     <h2><%= flash[:notice] %></h2>
+    <%= link_to "Login", new_user_session_path%>
   </body>
 </html>

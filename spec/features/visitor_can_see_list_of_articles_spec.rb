@@ -1,6 +1,9 @@
 feature 'list articles on index page' do
+  let(:user) { FactoryBot.create(:user) }
+
   context 'with articles in db' do
     before do
+      login_as(user, scope: :user)
       create(:article, title: 'A breaking news item')
       create(:article, title: 'Some really breaking action')
       visit root_path

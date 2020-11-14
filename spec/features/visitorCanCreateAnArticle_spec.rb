@@ -1,5 +1,8 @@
 feature 'Visitor can write an article' do
+  let(:user) { FactoryBot.create(:user) }
+  
   before do
+    login_as(user, scope: :user)
     visit root_path
     click_on 'Write'
   end
