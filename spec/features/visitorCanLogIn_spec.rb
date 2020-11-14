@@ -2,8 +2,8 @@ feature 'Visitor can login' do
   let(:user){FactoryBot.create(:user, email: 'test@test.com', password: 'password')}
 
   before do
+    login_as(user, scope: :user)
     visit root_path
-    click_on 'Login' #root_path = views/articles/index.html.erb
   end
 
   context 'visitor can login by providing credentials' do

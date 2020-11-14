@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-  
+ 
   def index
     @articles = Article.all
   end
@@ -8,7 +8,6 @@ class ArticlesController < ApplicationController
     @article = Article.find(params[:id])
   end
   
-  before_action :authenticate_user!
   def new
     @article = Article.new
   end
@@ -17,7 +16,6 @@ class ArticlesController < ApplicationController
     @article = Article.create(article_params)
     redirect_to root_path, notice: "Your article was sucessfully created"
   end
-
 
 
   private
