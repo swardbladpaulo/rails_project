@@ -2,7 +2,6 @@ feature 'Visitor can login' do
   let(:user){FactoryBot.create(:user, email: 'test@test.com', password: 'password')}
 
   before do
-    login_as(user, scope: :user)
     visit root_path
   end
 
